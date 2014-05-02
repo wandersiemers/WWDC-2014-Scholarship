@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E31A58EC18F8612500D17479 /* WSIntroductionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E31A58EB18F8612500D17479 /* WSIntroductionAnimationController.m */; };
+		E34002D718EDAE1100437311 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34002D618EDAE1100437311 /* Foundation.framework */; };
+		E34002D918EDAE1100437311 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34002D818EDAE1100437311 /* CoreGraphics.framework */; };
+		E34002DB18EDAE1100437311 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34002DA18EDAE1100437311 /* UIKit.framework */; };
+		E34002E118EDAE1100437311 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E34002DF18EDAE1100437311 /* InfoPlist.strings */; };
+		E34002E318EDAE1100437311 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E34002E218EDAE1100437311 /* main.m */; };
+		E34002E718EDAE1100437311 /* WSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E34002E618EDAE1100437311 /* WSAppDelegate.m */; };
+		E34002EA18EDAE1100437311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34002E818EDAE1100437311 /* Main.storyboard */; };
+		E34002EF18EDAE1100437311 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34002EE18EDAE1100437311 /* Images.xcassets */; };
+		E34002F618EDAE1100437311 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34002F518EDAE1100437311 /* XCTest.framework */; };
+		E34002F718EDAE1100437311 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34002D618EDAE1100437311 /* Foundation.framework */; };
+		E34002F818EDAE1100437311 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34002DA18EDAE1100437311 /* UIKit.framework */; };
+		E340030018EDAE1100437311 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E34002FE18EDAE1100437311 /* InfoPlist.strings */; };
+		E340030218EDAE1100437311 /* Wander_SiemersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E340030118EDAE1100437311 /* Wander_SiemersTests.m */; };
+		E340030E18EDB05E00437311 /* WSTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E340030D18EDB05E00437311 /* WSTimelineViewController.m */; };
+		E340031118EDB0D800437311 /* WSTimelineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E340031018EDB0D800437311 /* WSTimelineTableViewCell.m */; };
+		E340031A18EE98D600437311 /* UIColor+WSAppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = E340031918EE98D600437311 /* UIColor+WSAppColors.m */; };
+		E340031D18EEA81900437311 /* WSProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E340031C18EEA81900437311 /* WSProjectViewController.m */; };
+		E39C7F0818F5CB5B0058BD58 /* WSIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39C7F0718F5CB5B0058BD58 /* WSIntroductionViewController.m */; };
+		E39C7F2E18F5D4250058BD58 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E39C7F2D18F5D4250058BD58 /* UIImage+ImageEffects.m */; };
+		E39C7F3018F5DB670058BD58 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39C7F2F18F5DB670058BD58 /* QuartzCore.framework */; };
+		E3D1B79318EF48F9006F2393 /* timeout in Resources */ = {isa = PBXBuildFile; fileRef = E3D1B79218EF48F9006F2393 /* timeout */; };
+		E3D1B79518EF4951006F2393 /* kroeghamster in Resources */ = {isa = PBXBuildFile; fileRef = E3D1B79418EF4951006F2393 /* kroeghamster */; };
+		E3D1B79718EF4AF2006F2393 /* vossius in Resources */ = {isa = PBXBuildFile; fileRef = E3D1B79618EF4AF2006F2393 /* vossius */; };
+		E3D1B79918EF4DBC006F2393 /* techtalks in Resources */ = {isa = PBXBuildFile; fileRef = E3D1B79818EF4DBB006F2393 /* techtalks */; };
+		E3D1B79B18EF4F83006F2393 /* q42 in Resources */ = {isa = PBXBuildFile; fileRef = E3D1B79A18EF4F83006F2393 /* q42 */; };
+		E3D1B79D18EF5196006F2393 /* aboutme in Resources */ = {isa = PBXBuildFile; fileRef = E3D1B79C18EF5196006F2393 /* aboutme */; };
+		E3D1B7A018F023FB006F2393 /* WSProject.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D1B79F18F023FB006F2393 /* WSProject.m */; };
+		E3EA607F18F03DF000E672F2 /* WSProjectAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA607E18F03DF000E672F2 /* WSProjectAnimationController.m */; };
+		E3EA60C518F325C800E672F2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA60C418F325C800E672F2 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E34002F918EDAE1100437311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34002CB18EDAE1100437311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E34002D218EDAE1100437311;
+			remoteInfo = "Wander Siemers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E31A58EA18F8612500D17479 /* WSIntroductionAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSIntroductionAnimationController.h; sourceTree = "<group>"; };
+		E31A58EB18F8612500D17479 /* WSIntroductionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSIntroductionAnimationController.m; sourceTree = "<group>"; };
+		E34002D318EDAE1100437311 /* Wander Siemers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wander Siemers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34002D618EDAE1100437311 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E34002D818EDAE1100437311 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E34002DA18EDAE1100437311 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E34002DE18EDAE1100437311 /* Wander Siemers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wander Siemers-Info.plist"; sourceTree = "<group>"; };
+		E34002E018EDAE1100437311 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E34002E218EDAE1100437311 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E34002E418EDAE1100437311 /* Wander Siemers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wander Siemers-Prefix.pch"; sourceTree = "<group>"; };
+		E34002E518EDAE1100437311 /* WSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSAppDelegate.h; sourceTree = "<group>"; };
+		E34002E618EDAE1100437311 /* WSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSAppDelegate.m; sourceTree = "<group>"; };
+		E34002E918EDAE1100437311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E34002EE18EDAE1100437311 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E34002F418EDAE1100437311 /* Wander SiemersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wander SiemersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34002F518EDAE1100437311 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E34002FD18EDAE1100437311 /* Wander SiemersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wander SiemersTests-Info.plist"; sourceTree = "<group>"; };
+		E34002FF18EDAE1100437311 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E340030118EDAE1100437311 /* Wander_SiemersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wander_SiemersTests.m; sourceTree = "<group>"; };
+		E340030C18EDB05E00437311 /* WSTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTimelineViewController.h; sourceTree = "<group>"; };
+		E340030D18EDB05E00437311 /* WSTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTimelineViewController.m; sourceTree = "<group>"; };
+		E340030F18EDB0D800437311 /* WSTimelineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTimelineTableViewCell.h; sourceTree = "<group>"; };
+		E340031018EDB0D800437311 /* WSTimelineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTimelineTableViewCell.m; sourceTree = "<group>"; };
+		E340031818EE98D600437311 /* UIColor+WSAppColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WSAppColors.h"; sourceTree = "<group>"; };
+		E340031918EE98D600437311 /* UIColor+WSAppColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WSAppColors.m"; sourceTree = "<group>"; };
+		E340031B18EEA81900437311 /* WSProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSProjectViewController.h; sourceTree = "<group>"; };
+		E340031C18EEA81900437311 /* WSProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSProjectViewController.m; sourceTree = "<group>"; };
+		E39C7F0618F5CB5B0058BD58 /* WSIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSIntroductionViewController.h; sourceTree = "<group>"; };
+		E39C7F0718F5CB5B0058BD58 /* WSIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSIntroductionViewController.m; sourceTree = "<group>"; };
+		E39C7F2C18F5D4250058BD58 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		E39C7F2D18F5D4250058BD58 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		E39C7F2F18F5DB670058BD58 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E3D1B79218EF48F9006F2393 /* timeout */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = timeout; sourceTree = "<group>"; };
+		E3D1B79418EF4951006F2393 /* kroeghamster */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kroeghamster; sourceTree = "<group>"; };
+		E3D1B79618EF4AF2006F2393 /* vossius */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vossius; sourceTree = "<group>"; };
+		E3D1B79818EF4DBB006F2393 /* techtalks */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = techtalks; sourceTree = "<group>"; };
+		E3D1B79A18EF4F83006F2393 /* q42 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = q42; sourceTree = "<group>"; };
+		E3D1B79C18EF5196006F2393 /* aboutme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aboutme; sourceTree = "<group>"; };
+		E3D1B79E18F023FB006F2393 /* WSProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSProject.h; sourceTree = "<group>"; };
+		E3D1B79F18F023FB006F2393 /* WSProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSProject.m; sourceTree = "<group>"; };
+		E3EA607D18F03DF000E672F2 /* WSProjectAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSProjectAnimationController.h; sourceTree = "<group>"; };
+		E3EA607E18F03DF000E672F2 /* WSProjectAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSProjectAnimationController.m; sourceTree = "<group>"; };
+		E3EA60C418F325C800E672F2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E34002D018EDAE1100437311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C7F3018F5DB670058BD58 /* QuartzCore.framework in Frameworks */,
+				E3EA60C518F325C800E672F2 /* StoreKit.framework in Frameworks */,
+				E34002D918EDAE1100437311 /* CoreGraphics.framework in Frameworks */,
+				E34002DB18EDAE1100437311 /* UIKit.framework in Frameworks */,
+				E34002D718EDAE1100437311 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34002F118EDAE1100437311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34002F618EDAE1100437311 /* XCTest.framework in Frameworks */,
+				E34002F818EDAE1100437311 /* UIKit.framework in Frameworks */,
+				E34002F718EDAE1100437311 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E34002CA18EDAE1100437311 = {
+			isa = PBXGroup;
+			children = (
+				E34002DC18EDAE1100437311 /* Wander Siemers */,
+				E34002FB18EDAE1100437311 /* Wander SiemersTests */,
+				E34002D518EDAE1100437311 /* Frameworks */,
+				E34002D418EDAE1100437311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E34002D418EDAE1100437311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E34002D318EDAE1100437311 /* Wander Siemers.app */,
+				E34002F418EDAE1100437311 /* Wander SiemersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E34002D518EDAE1100437311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E39C7F2F18F5DB670058BD58 /* QuartzCore.framework */,
+				E3EA60C418F325C800E672F2 /* StoreKit.framework */,
+				E34002D618EDAE1100437311 /* Foundation.framework */,
+				E34002D818EDAE1100437311 /* CoreGraphics.framework */,
+				E34002DA18EDAE1100437311 /* UIKit.framework */,
+				E34002F518EDAE1100437311 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E34002DC18EDAE1100437311 /* Wander Siemers */ = {
+			isa = PBXGroup;
+			children = (
+				E34002E818EDAE1100437311 /* Main.storyboard */,
+				E39C7F0618F5CB5B0058BD58 /* WSIntroductionViewController.h */,
+				E39C7F0718F5CB5B0058BD58 /* WSIntroductionViewController.m */,
+				E31A58EA18F8612500D17479 /* WSIntroductionAnimationController.h */,
+				E31A58EB18F8612500D17479 /* WSIntroductionAnimationController.m */,
+				E340030C18EDB05E00437311 /* WSTimelineViewController.h */,
+				E340030D18EDB05E00437311 /* WSTimelineViewController.m */,
+				E3EA607D18F03DF000E672F2 /* WSProjectAnimationController.h */,
+				E3EA607E18F03DF000E672F2 /* WSProjectAnimationController.m */,
+				E340031B18EEA81900437311 /* WSProjectViewController.h */,
+				E340031C18EEA81900437311 /* WSProjectViewController.m */,
+				E340030F18EDB0D800437311 /* WSTimelineTableViewCell.h */,
+				E340031018EDB0D800437311 /* WSTimelineTableViewCell.m */,
+				E3D1B79E18F023FB006F2393 /* WSProject.h */,
+				E3D1B79F18F023FB006F2393 /* WSProject.m */,
+				E340031818EE98D600437311 /* UIColor+WSAppColors.h */,
+				E340031918EE98D600437311 /* UIColor+WSAppColors.m */,
+				E34002EE18EDAE1100437311 /* Images.xcassets */,
+				E34002DD18EDAE1100437311 /* Supporting Files */,
+			);
+			path = "Wander Siemers";
+			sourceTree = "<group>";
+		};
+		E34002DD18EDAE1100437311 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3D1B79218EF48F9006F2393 /* timeout */,
+				E3D1B79418EF4951006F2393 /* kroeghamster */,
+				E3D1B79618EF4AF2006F2393 /* vossius */,
+				E3D1B79818EF4DBB006F2393 /* techtalks */,
+				E3D1B79A18EF4F83006F2393 /* q42 */,
+				E3D1B79C18EF5196006F2393 /* aboutme */,
+				E34002E518EDAE1100437311 /* WSAppDelegate.h */,
+				E34002E618EDAE1100437311 /* WSAppDelegate.m */,
+				E39C7F2C18F5D4250058BD58 /* UIImage+ImageEffects.h */,
+				E39C7F2D18F5D4250058BD58 /* UIImage+ImageEffects.m */,
+				E34002DE18EDAE1100437311 /* Wander Siemers-Info.plist */,
+				E34002DF18EDAE1100437311 /* InfoPlist.strings */,
+				E34002E218EDAE1100437311 /* main.m */,
+				E34002E418EDAE1100437311 /* Wander Siemers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E34002FB18EDAE1100437311 /* Wander SiemersTests */ = {
+			isa = PBXGroup;
+			children = (
+				E340030118EDAE1100437311 /* Wander_SiemersTests.m */,
+				E34002FC18EDAE1100437311 /* Supporting Files */,
+			);
+			path = "Wander SiemersTests";
+			sourceTree = "<group>";
+		};
+		E34002FC18EDAE1100437311 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E34002FD18EDAE1100437311 /* Wander SiemersTests-Info.plist */,
+				E34002FE18EDAE1100437311 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E34002D218EDAE1100437311 /* Wander Siemers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E340030518EDAE1100437311 /* Build configuration list for PBXNativeTarget "Wander Siemers" */;
+			buildPhases = (
+				E34002CF18EDAE1100437311 /* Sources */,
+				E34002D018EDAE1100437311 /* Frameworks */,
+				E34002D118EDAE1100437311 /* Resources */,
+				E340030B18EDAE6B00437311 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wander Siemers";
+			productName = "Wander Siemers";
+			productReference = E34002D318EDAE1100437311 /* Wander Siemers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E34002F318EDAE1100437311 /* Wander SiemersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E340030818EDAE1100437311 /* Build configuration list for PBXNativeTarget "Wander SiemersTests" */;
+			buildPhases = (
+				E34002F018EDAE1100437311 /* Sources */,
+				E34002F118EDAE1100437311 /* Frameworks */,
+				E34002F218EDAE1100437311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E34002FA18EDAE1100437311 /* PBXTargetDependency */,
+			);
+			name = "Wander SiemersTests";
+			productName = "Wander SiemersTests";
+			productReference = E34002F418EDAE1100437311 /* Wander SiemersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E34002CB18EDAE1100437311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Wander Siemers";
+				TargetAttributes = {
+					E34002F318EDAE1100437311 = {
+						TestTargetID = E34002D218EDAE1100437311;
+					};
+				};
+			};
+			buildConfigurationList = E34002CE18EDAE1100437311 /* Build configuration list for PBXProject "Wander Siemers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E34002CA18EDAE1100437311;
+			productRefGroup = E34002D418EDAE1100437311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E34002D218EDAE1100437311 /* Wander Siemers */,
+				E34002F318EDAE1100437311 /* Wander SiemersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E34002D118EDAE1100437311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34002EF18EDAE1100437311 /* Images.xcassets in Resources */,
+				E34002E118EDAE1100437311 /* InfoPlist.strings in Resources */,
+				E3D1B79B18EF4F83006F2393 /* q42 in Resources */,
+				E3D1B79318EF48F9006F2393 /* timeout in Resources */,
+				E3D1B79718EF4AF2006F2393 /* vossius in Resources */,
+				E3D1B79518EF4951006F2393 /* kroeghamster in Resources */,
+				E34002EA18EDAE1100437311 /* Main.storyboard in Resources */,
+				E3D1B79918EF4DBC006F2393 /* techtalks in Resources */,
+				E3D1B79D18EF5196006F2393 /* aboutme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34002F218EDAE1100437311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E340030018EDAE1100437311 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E340030B18EDAE6B00437311 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E34002CF18EDAE1100437311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C7F0818F5CB5B0058BD58 /* WSIntroductionViewController.m in Sources */,
+				E3EA607F18F03DF000E672F2 /* WSProjectAnimationController.m in Sources */,
+				E3D1B7A018F023FB006F2393 /* WSProject.m in Sources */,
+				E39C7F2E18F5D4250058BD58 /* UIImage+ImageEffects.m in Sources */,
+				E31A58EC18F8612500D17479 /* WSIntroductionAnimationController.m in Sources */,
+				E340031118EDB0D800437311 /* WSTimelineTableViewCell.m in Sources */,
+				E34002E718EDAE1100437311 /* WSAppDelegate.m in Sources */,
+				E34002E318EDAE1100437311 /* main.m in Sources */,
+				E340031A18EE98D600437311 /* UIColor+WSAppColors.m in Sources */,
+				E340031D18EEA81900437311 /* WSProjectViewController.m in Sources */,
+				E340030E18EDB05E00437311 /* WSTimelineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34002F018EDAE1100437311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E340030218EDAE1100437311 /* Wander_SiemersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E34002FA18EDAE1100437311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E34002D218EDAE1100437311 /* Wander Siemers */;
+			targetProxy = E34002F918EDAE1100437311 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E34002DF18EDAE1100437311 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E34002E018EDAE1100437311 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E34002E818EDAE1100437311 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E34002E918EDAE1100437311 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E34002FE18EDAE1100437311 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E34002FF18EDAE1100437311 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E340030318EDAE1100437311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E340030418EDAE1100437311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E340030618EDAE1100437311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wander Siemers/Wander Siemers-Prefix.pch";
+				INFOPLIST_FILE = "Wander Siemers/Wander Siemers-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E340030718EDAE1100437311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wander Siemers/Wander Siemers-Prefix.pch";
+				INFOPLIST_FILE = "Wander Siemers/Wander Siemers-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E340030918EDAE1100437311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wander Siemers.app/Wander Siemers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wander Siemers/Wander Siemers-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wander SiemersTests/Wander SiemersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E340030A18EDAE1100437311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wander Siemers.app/Wander Siemers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wander Siemers/Wander Siemers-Prefix.pch";
+				INFOPLIST_FILE = "Wander SiemersTests/Wander SiemersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E34002CE18EDAE1100437311 /* Build configuration list for PBXProject "Wander Siemers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E340030318EDAE1100437311 /* Debug */,
+				E340030418EDAE1100437311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E340030518EDAE1100437311 /* Build configuration list for PBXNativeTarget "Wander Siemers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E340030618EDAE1100437311 /* Debug */,
+				E340030718EDAE1100437311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E340030818EDAE1100437311 /* Build configuration list for PBXNativeTarget "Wander SiemersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E340030918EDAE1100437311 /* Debug */,
+				E340030A18EDAE1100437311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E34002CB18EDAE1100437311 /* Project object */;
+}

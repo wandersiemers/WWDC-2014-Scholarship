@@ -1,0 +1,3 @@
+Kroeghamster is the working name for a social app I'm building with two friends, Tycho and Rik at the moment. I'm working on the iOS app while Tycho does all the design and Rik is building the back-end. It lets you share how busy a bar or nightclub is. While we all really like to use Foursquare to share where we are, we often just want to go to places where people actually are, not necessarily the places that have the most 5 star reviews or the fanciest drinks. We're building an app that uses Core Location and the Google Maps API to check for the nearest bar, which lets you quickly give a rating of how many people are there.
+
+Kroeghamster is currently being built and will be available soon.

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DF42E0FE-5780-49AA-A207-7F14346D2A0F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Wander Siemers</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>797F4152-CC13-4B45-A94D-1F9B827B5EC5</key>
+		<string>https://github.com/wandersiemers/WWDC-2014-Scholarship.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Wander Siemers.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>797F4152-CC13-4B45-A94D-1F9B827B5EC5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wandersiemers/WWDC-2014-Scholarship.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>797F4152-CC13-4B45-A94D-1F9B827B5EC5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>797F4152-CC13-4B45-A94D-1F9B827B5EC5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WWDC-2014-Scholarship</string>
+		</dict>
+	</array>
+</dict>
+</plist>
